@@ -1,0 +1,64 @@
+h1 {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 0px 0px 2px 0px;
+    margin-bottom: 10px;
+    background-color: #F1F3F3;
+}
+
+.navbar-brand {
+    font-family: 'Lato', 'Montserrat', sans-serif;
+    font-size: 3rem;
+    padding-right: 5%;
+}
+
+.navbar-nav {
+    margin-right: auto;
+}
+
+.nav-item {
+    padding: 0 5%;
+}
+
+.row {
+    margin: 5px;
+}
+
+.pos {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main {
+    border-radius: 800px 0px 0px 0px;
+}
+
+#features {
+    text-align: center;
+    padding: 5%;
+    font-family: sans-serif;
+}
+
+.feature-icon {
+    color: rgb(236, 81, 81);
+    font-size: 2.5rem;
+}
+
+.feature-icon:hover {
+    color: maroon;
+}
+
+.features-h3 {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.features-p {
+    color: gray;
+    font-size: 0.6rem;
+}
+
