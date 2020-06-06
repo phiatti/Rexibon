@@ -1,0 +1,13 @@
+body{
+    font-family: "Lato", "Montserrat", sans-serif;
+    color: black;
+    margin-top: 10px;
+}
+
+.home {
+    margin-left: 20px;
+}
+
+form {
+    margin: 0 35%;
+}
