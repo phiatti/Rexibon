@@ -1,5 +1,4 @@
 body {
-    
     font-family: "Lato", "Montserrat", sans-serif;
 }
 
@@ -34,14 +33,6 @@ h1 {
 
 .row {
     margin: 5px;
-}
-
-.pos {
-    text-align: center;
-}
-
-.main {
-    border-radius: 800px 0px 0px;
 }
 
 .main_head {
@@ -91,7 +82,7 @@ h1 {
     justify-content: center;
 }
 
-.testimonials-img {
+.watch-img {
     width: 400px;
     height: 350px;
     margin: 5px;
