@@ -11,7 +11,7 @@ h1 {
 
 .container-fluid {
     padding: 0px 0px 2px 0px;
-    background-color: #F3F6F6;
+    background-color: white;
 }
 
 .logo {
@@ -57,7 +57,7 @@ h1 {
 }
 
 .feature-icon:hover {
-    color: maroon;
+    color: rgb(4, 8, 255);
 }
 
 .features-h3 {
@@ -94,3 +94,4 @@ h1 {
     background-color: #F3F6F6;
     text-align: center;
 }
+

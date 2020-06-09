@@ -1,21 +1,18 @@
 body{
     font-family: "Lato", "Montserrat", sans-serif;
-    color: black;
     margin-top: 10px;
+    background: url("images/background_login.jpg") no-repeat right fixed;
+    background-size: cover;
 }
 
-.home {
-    margin-left: 20px;
-}
-
-form {
-    margin: 0 35%;
-}
-
-.sign-up {
-    margin: 0 36%;
+.sign-in {
+    margin-bottom: 2%;
 }
 
 .forgot {
-    padding: 1% 0 3% 3%;
+    color: white;
+}
+
+.btn {
+    border-color: black;
 }
