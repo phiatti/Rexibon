@@ -5,13 +5,14 @@ body {
     color: black;
 }
 
-/* .container-fluid {
-    padding: 0 0 20% 0;
-} */
+.container-fluid {
+    padding: 0;
+}
 
 .navbar {
-    padding: 0;
+    padding: 5px 0px 10px;
     margin: 0;
+    background-color: #dae1e7;
 }
 
 .navbar-brand {
@@ -29,35 +30,73 @@ body {
     padding: 0 5% 0;
 }
 
-.name {
-    text-align: center;
-}
+/* .nav-link {
+    color: white;
+} */
 
 h1 {
     font-family: 'Lato', 'Montserrat';
     font-size: 3rem;
     font-weight: bold;
+    color: white;
 }
 
 .heading {
-    margin-top: 3%;
     text-align: center;
+    margin: auto;
+    padding: 0px;
+}
+
+.name {
+    text-align: center;
+    height: 400px;
+    background-color: #142850;
+}
+
+.name:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    background: #00909e;
+    transform: skew(-30deg);
+    transform-origin:top;
+}
+
+.name:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    background: #00909e;
+    transform: skew(30deg);
+    transform-origin: top;
+}
+
+.first-img {
+    height: 100px;
+    background-color: #27496d;
 }
 
 #features {
     text-align: center;
-    padding: 7% 15%;
+    padding: 3% 15%;
     font-family: "Lato", "Montserrat", sans-serif;
+    background-color: #dae1e7;
 }
 
 .feature-icon {
-    color: rgb(38, 101, 236);
+    color: #00909e;
     font-size: 2.5rem;
     padding-bottom: 3%;
 }
 
 .feature-icon:hover {
-    color: rgb(4, 8, 255);
+    color: #27496d;
 }
 
 .features-h3 {
@@ -70,8 +109,8 @@ h1 {
 }
 
 #testimonials {
-    padding: 0 0 5% 0;
     text-align: center;
+    background-color: #27496d;
 }
 
 #products {
@@ -81,14 +120,16 @@ h1 {
 }
 
 .watch-img {
-    width: 400px;
-    height: 350px;
-    margin: 5px;
+    width: 300px;
+    height: 250px;
+    margin: 2%;
     border-radius: 8px;
 }
 
 .footer {
     text-align: center;
+    padding: 2% 10% 1%;
+    background-color: #dae1e7;
 }
 
 h6 {
